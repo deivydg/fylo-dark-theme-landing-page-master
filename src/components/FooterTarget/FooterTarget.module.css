@@ -1,0 +1,135 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #0c1524;
+  width: 100%;
+  margin: auto;
+  height: 70vh;
+}
+
+.footerLogo {
+  width: 200px;
+  height: 50px;
+  margin-top: 200px;
+  padding-left: 50px;
+}
+
+.footerSection1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 300px;
+  padding-left: 98px;
+  position: relative;
+  right: 253px;
+}
+
+.footerLocationImg {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+
+.footerText1 {
+    width: 321px;
+    color: white;
+  }
+
+  .footerText{
+    width: 122px;
+  }
+
+  .footerList {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footerList li {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+
+  .footerImg {
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 85%;
+    cursor: pointer;
+  }
+
+  .footerImg img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    fill: white;
+  }
+
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0c1524;
+    width: 100%;
+    margin: auto;
+    height: 135vh;
+  }
+
+  .footerLogo {
+    width: 200px;
+    margin-top: 200px;
+    padding-left: 30px;
+  }
+
+  .footerSection1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    padding-left: 30px;
+    position: static;
+  
+  }
+
+  .footerLocationImg {
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+  }
+
+  .footerText1 {
+    width: 240px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .footerText {
+    margin-left: 20px;
+    color: white;
+   
+  }
+
+  .footerList {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footerList li {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .footerImg {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 37%;
+  }
+
+  .footerImg img {
+    width: 30px;
+    margin-right: 5px;
+    fill: white;
+  }
+}

@@ -1,0 +1,86 @@
+
+.bodyProductiveContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+}
+
+.productiveImg{
+    width: 420px;
+    margin-left: 281px;
+}
+
+.productiveSection{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.productiveSection h3{
+    color: white;
+    width: 300px;
+    font-size: 30px;
+}
+
+.productiveSection p{
+    color: white;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.productiveSection button{
+    color: #89E2DF;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #89E2DF;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    .bodyProductiveContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        width: 300px;
+        margin: auto;
+        margin-top: 150px;
+        margin-bottom: 120px;
+    }
+    .productiveImg{
+        width: 300px;
+        margin-left: 0px
+    }
+
+    .productiveSection{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .productiveSection h3{
+        color: white;
+        width: 237px;
+        font-size: 15px;
+
+    }
+
+    .productiveSection p{
+        color: white;
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    .productiveSection button{
+        color: #89E2DF;
+        margin-top: 20px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #89E2DF;
+    }
+
+    .productiveArrow{
+       position: relative;
+       top: 2px;
+    }
+}

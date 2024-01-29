@@ -1,0 +1,186 @@
+.bodyMidContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    position: relative;
+    right: 30px;
+    
+    
+}
+
+.bodyMidSection{
+    margin-top: -190px;
+    
+}
+
+.midImg1{
+    position: relative;
+    left: 270px;
+    top: 22px;
+}
+
+.midImg2{
+    position: relative;
+    top: 300px;
+    right: 575px;
+}
+
+.midImg3{
+    position: relative;
+    top: 300px;
+    left: -290px;
+}
+
+.bodyMidSection h3, p{
+    color: white;
+}
+
+.midTitle1{
+    width: 300px;
+}
+
+.midTitle2{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 318px;
+}
+
+
+.midTitle3{
+    position: relative;
+    top: 300px;
+    right: 550px;
+    width: 200px;
+}
+
+.midTitle4{
+    position: relative;
+    top: 300px;
+    left: -290px;
+}
+
+.midText2{
+    position: relative;
+    top: 20px;
+    left: 280px;
+    width: 300px;
+}
+
+.midText3{
+    position: relative;
+    top: 300px;
+    right: 577px;
+    width: 262px;
+}
+
+.midText4{
+    position: relative;
+    top: 300px;
+    left: -290px;
+    width: 300px;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+    .midText2{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .midText3{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        width: 262px;
+    }
+
+    .midText4{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+    }
+
+    .midTitle2{
+        width: 200px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin: auto;
+    }
+
+
+    .midTitle3{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        width: 200px;
+        margin: auto;
+    }
+    
+
+    .midTitle4{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .midTitle1{
+        width: 240px;
+        margin: auto;
+    }
+
+    .midImg1{
+        position: relative;
+        left: 0px;
+        top: 0;
+    }
+
+    .midImg2{
+        top: 0;
+        right: 0;
+    }
+
+    .midImg3{
+        position: relative;
+        top: 0px;
+        left: 0;
+    }
+
+    .bodyMidContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+        right: 0px;
+    }
+
+    .bodyMidSection{
+        margin-top: 90px;
+    }
+
+    .bodyMidSection img{
+       margin-bottom: 20px;
+       width: 60px;
+    }
+
+    .bodyMidSection h3{
+        color: white;
+    }
+
+    .bodyMidSection p{
+        color: #FCFFFF;
+    }
+}

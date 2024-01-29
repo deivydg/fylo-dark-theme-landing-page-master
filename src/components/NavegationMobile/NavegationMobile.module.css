@@ -1,0 +1,60 @@
+.navContainer{
+  background-color: #1B2330;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo{
+  width: 150px;
+  position: relative;
+  left: 30px;
+  margin-top: 20px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.link{
+  margin-right: 10px;
+  list-style: none;
+  margin-top: -45px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navContainer {
+    background-color: #1b2330;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .logo {
+    width: 100px;
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  .link {
+    margin-right: 10px;
+    list-style: none;
+    margin-top: -31px;
+    color: #ffffff;
+  }
+}

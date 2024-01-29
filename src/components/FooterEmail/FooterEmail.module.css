@@ -1,0 +1,130 @@
+.emailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 725px;
+  margin: auto;
+  background-color: #1b2330;
+  color: white;
+  border-radius: 10px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.emailTitle {
+  margin-top: 20px;
+}
+
+.emailInfo {
+  margin-top: 10px;
+  text-align: center;
+  width: 675px;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.emailInput {
+  height: 35px;
+  margin-top: 0px;
+  width: 360px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.emailButton {
+  margin-top: 0px;
+  width: 260px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #4fc4d4;
+  cursor: pointer;
+}
+
+.emailButton:hover{
+    transition: 0.5s;
+    background-color: #8ED9E4;
+}
+
+.emailError {
+  position: absolute;
+  top: 170px;
+  width: 500px;
+  right: 181px;
+  color: red;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .emailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 325px;
+    margin: auto;
+    background-color: #1b2330;
+    color: white;
+    border-radius: 10px;
+    height: 350px;
+    position: relative;
+    top: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .emailTitle {
+    margin-top: 40px;
+  }
+
+  .emailInfo {
+    margin-top: 20px;
+    text-align: center;
+    width: 275px;
+  }
+
+  .emailForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  .emailInput {
+    height: 35px;
+    margin-top: 20px;
+    width: 260px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 0px;
+  }
+
+  .emailButton {
+    margin-top: 20px;
+    width: 260px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4fc4d4;
+  }
+
+  .emailError {
+    position: absolute;
+    top: 326px;
+    width: 300px;
+    right: 0px;
+    color: red;
+    margin-top: 0px;
+    left: 36px;
+  }
+}
